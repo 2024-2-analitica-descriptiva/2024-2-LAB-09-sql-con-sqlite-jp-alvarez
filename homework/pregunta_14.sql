@@ -43,4 +43,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select K0, avg(c21) from tbl1, tbl2 where tbl1.K1 = tbl2.K1 and c13 > 400 group by K0;
 
